@@ -1,0 +1,86 @@
+body {
+    background-image: url('barang.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.button {
+    background-color: gray;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+a.delete {
+    color: #e74c3c;
+}
+
+a.delete:hover {
+    color: #c0392b;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-container a:hover {
+    background-color: #45a049;
+}
